@@ -5,6 +5,139 @@
     box-sizing: border-box;
 }
 
+/* Logo Styles */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.site-logo {
+    border-radius: 8px;
+    border: 2px solid var(--blue);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: var(--transition);
+}
+
+.site-logo:hover {
+    transform: rotate(5deg) scale(1.05);
+    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+}
+
+.logo-text {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    color: var(--light-text);
+    font-size: 1.2rem;
+}
+
+.theme-dark .logo-text {
+    color: var(--dark-text);
+}
+
+/* Book logo inside container */
+.book-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.book-logo img {
+    border-radius: 5px;
+}
+
+/* Footer */
+.site-footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    color: var(--light-text);
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+.theme-dark .site-footer {
+    color: var(--dark-text);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-content img {
+    border-radius: 5px;
+}
+
+.footer-tagline {
+    font-style: italic;
+    color: var(--blue);
+}
+
+.theme-dark .footer-tagline {
+    color: var(--yellow);
+}
+
+/* Theme selector with logo */
+.theme-selector {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+    transition: var(--transition);
+}
+
+.theme-dark .theme-selector {
+    background: rgba(45, 48, 71, 0.9);
+}
+
+.theme-selector:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+/* Responsive adjustments for logo */
+@media (max-width: 768px) {
+    .theme-selector {
+        flex-direction: column;
+        padding: 15px;
+        border-radius: 20px;
+        top: 15px;
+        right: 15px;
+    }
+    
+    .logo-container {
+        flex-direction: column;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .book-logo {
+        position: static;
+        text-align: center;
+        margin-bottom: 20px;
+        opacity: 0.4;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
 :root {
     /* Light Theme */
     --light-bg: #f5f1e8;
