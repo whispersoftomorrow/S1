@@ -641,28 +641,234 @@ Tears slipped from his eyes.
 After some time—exhausted, broken, and afraid—Miran finally fell asleep too.`
     },
     {
-        title: "Page 15",
-        content: "Under Progress"
+        title: "Episode 14",
+        content: `The next morning, Miran went out to explore the nearby area. Not far from the house, he found a forest, a flowing river, and a wide patch of clear land. To his surprise, there were also four jackfruit trees—and a jamun tree heavy with ripe fruit.
+It felt like a small blessing.
+When Miran returned home, he saw Fatma crying.
+The moment she noticed him, she said in a trembling voice,
+“Brother… where were you? I’ve been calling you for so long.”
+Miran sat beside her at once, gently wiping her tears.
+“I was just around the house, Fatma,” he said softly. “You should rest properly, okay?”
+He held her hand and felt the difference—her fever still hadn’t fully gone.
+“Fatma,” he added carefully, “I found something. Do you want to see?”
+She shook her head weakly and tightened her grip on his hand.
+“No… just stay. I feel better when you talk to me.”
+Miran smiled sadly. “I’ll be back in just two minutes, my dear. I promise.”
+Fatma didn’t reply. She only held his hand a little tighter before slowly letting go.
+Miran stepped outside quickly and returned with a handful of fresh jamun. He gently lifted the edge of her blanket and said,
+“Look, Fatma. Jamun.”
+Her eyes lit up. She smiled and sat up slightly.
+“Oh, brother… thank you. Where did you find them?”
+“Nearby,” he replied, feeling lighter just seeing her smile.
+Miran touched her shoulders gently.
+“Fatma, I need to cut some wood today.”
+She whispered quietly, “Okay, brother… whatever you think is right.”
+He paused, then said, “If you allow me, I’ll help you sit near the jamun tree. You can eat, watch me work, and talk to me.”
+She nodded.
+As Fatma tried to stand, she almost lost her balance—but Miran caught her immediately.
+“Slowly,” he said. “You’re not well yet.”
+He carried her carefully, wrapped her in her blanket, and settled her near the tree. He shook the branches lightly, and jamuns fell around them. Then he brought water from the river, washing each fruit carefully.
+Fatma laughed as she tried to stop him.
+“Brother! That’s enough!”
+Miran laughed too.
+“You used to say I was always angry and quiet,” she teased. “Look at you now.”
+Inside, Miran felt something warm—hope. Seeing her laugh made everything feel lighter.
+After some time, Fatma asked,
+“Brother… those are jackfruit trees too, right?”
+“Yes,” he said.
+“Can we eat them later?”
+“After cooking,” she smiled.
+Miran cut two small trees while talking to her the whole time. When he finished, he carried everything back to the house—wood, fruits, and Fatma herself.
+This time, she insisted on walking, holding his hand tightly. Miran supported her, his other hand resting on her shoulder.
+Later, he prepared the jackfruit, and they ate together in silence, comfortable and calm.
+As night fell, Fatma touched her cheek softly and whispered,
+“Thank you, brother… because of you, I feel better now.”
+Miran had already fallen asleep.
+The night passed quietly.`
     },
     {
-        title: "Page 16",
-        content: "Under Progress"
+        title: "Episode 15",
+        content: `Morning arrived quietly.
+Miran returned home after finishing his work and immediately noticed Fatma was already awake. She sat upright, her breathing steady, her face no longer pale. Color had returned to her cheeks, and her eyes—once dull with fever—were clear again.
+For a moment, Miran just stood there.
+Then his face softened into relief.
+“Fatma… are you feeling better now?”
+She looked at him and nodded, a small but genuine smile forming on her lips.
+“Yes, brother.”
+Her gaze drifted around the room.
+“Brother… where is the food?”
+Miran paused, choosing his words carefully.
+“There isn’t much left,” he said gently. “I thought… once you fully recover, we’ll leave and search for another village. Until then, we can manage with jackfruits.”
+Fatma smiled faintly.
+“Oh… so now we can go—”
+Her voice stopped mid-sentence.
+Both of them remembered the village—the smoke, the ashes, the silence left behind.
+Miran spoke before the memory could hurt her further.
+“We won’t go there,” he said softly.
+“The sailor once told me there are other small villages nearby. That one was the closest… but now, we’ll search farther.”
+Hope slowly returned to Fatma’s eyes.
+“Oh, brother… then when are we going?”
+“After we eat,” Miran replied. “I brought jackfruits. Can you cook them?”
+“Yes,” she answered quietly.
+They prepared the food together and ate in silence. It wasn’t much, but it was enough.
+Afterward, Miran packed the firewood they had gathered. Most of it fit into the boat, but one bundle was too large—he left it behind. Before leaving, he took his axe and his weapon, just in case.
+They pushed the boat into the river and followed a different route this time, moving upstream.
+Hours passed.
+The sun began to lower, painting the water gold. Still, there was nothing—no houses, no smoke, no signs of life. Fatma’s shoulders drooped, and Miran felt the familiar weight of uncertainty settle in his chest.
+Then—
+“There,” Fatma whispered.
+Ahead, a village appeared.
+Relief washed over Miran. Fatma’s face lit up with quiet joy as the boat drifted closer to shore.`
     },
     {
-        title: "Page 17",
-        content: "Under Progress"
+        title: "Episode 16",
+        content: `They docked near the shore and gathered more wood before entering the village cautiously.
+Miran sold the wood to a shopkeeper for seven arrives. With five, he bought food. With one, he bought utensils and tools. The last arrive, he hid away—for another day, another need.
+As they walked back toward the boat, the air changed.
+Footsteps.
+Shadows moved between the buildings.
+Four—no, five swordsmen emerged.
+Miran stepped forward instantly.
+“Fatma—go!”
+She froze.
+Fear filled her eyes, her body trembling—but she didn’t run. She believed in him.
+The soldiers attacked.
+Steel clashed. Miran fought with everything he had. His arms burned, his breath grew heavy. He struck one man down, blood staining the ground—but the others closed in.
+He knew he couldn’t win.
+Miran grabbed Fatma’s hand and ran.
+They reached the boat. He shoved it into the water with all his strength.
+The boat began to move.
+The soldiers shouted and charged.
+Miran jumped, reaching for the boat.
+Fatma grabbed his hand—crying, screaming his name.
+For one heartbeat, the world stopped.
+Then a soldier seized Miran’s arm.
+Their hands slipped apart.
+“BROTHER!” Fatma screamed.
+“FATMA!” Miran shouted back.
+The boat drifted away.
+The river swallowed her cries as the soldiers dragged Miran back.
+He was bound and taken captive.
+They were not many—about ten men. They called themselves the Acurs.
+He was brought before their leader.
+“Hey, child,” the man said coldly. “What’s your name?”
+Miran lifted his head, eyes burning.
+“What do you want from me? Why do you burn villages? Why do you kill people?”
+The leader laughed bitterly.
+“Because of need. Listen.”
+And he told his story—
+the Cease Kingdom burning his village,
+his rise as a soldier,
+his betrayal, imprisonment, escape,
+and his oath to burn everything tied to the kingdom.
+“Will you join us?” the leader asked.
+Miran raised his head.
+“No.”
+His voice was calm, devastating.
+Miran raised his head, eyes like shards of ice beneath a flame. The air around him seemed to grow still, charged with the weight of his words.
+“No. I will not join you.”
+His voice was low, but it cut through the silence, leaving no room for argument. He held the leader’s cold, tired gaze—not with a prisoner’s fear, but with the terrifying clarity of one who has already lost almost everything.
+“You speak of your village burned to ashes. So was mine. I have seen the same smoke, smelled the same ruin, felt the same earth grow cold under my feet.”
+He took a step forward, the bonds on his wrists feeling suddenly irrelevant.
+“But where your hatred found a target, my heart found a responsibility. I did not need revenge. I needed peace. A single, fragile peace with the one person left to me—my sister. Your soldiers, in their blind rage, have just torn that last peace from me. You ask for my allegiance after severing my only reason to fight?”
+A bitter, hollow laugh escaped him, devoid of all humor.
+“You say you burn because of need? I see no need here. I see a poison, and you are drinking it deeply, mistaking it for water. You say the kingdom made you a monster? Look at your own hands. You attack villages filled with people you do not know. People like me. People like my sister, who have done nothing but try to survive the ashes your war scatters.”
+His voice rose, not in a shout, but in a devastating, resonant truth.
+“If you truly crave revenge, then have the courage of your conviction. Face the king. Face the army that wronged you. Burn his palaces, challenge his soldiers, break his throne. But what honor is there in setting fire to the huts of the forgotten? What justice is there in making orphans scream for the sins of a crown they’ve never seen?”
+Miran’s eyes blazed with a final, damning verdict.
+“By burning the innocent to get to the guilty, you have become a mirror of the very evil you hate. There is no more difference between you and him. You both create the same orphans. You both leave the same silence. You both rule through the same fear.”
+He stood tall, his defiance complete.
+“So take your offer and your hatred elsewhere. I will not join you. I will only pity you. For you have sacrificed your soul to your revenge, and now you have nothing left to burn… but yourself.”
+When Miran finished, silence filled the space.
+The leader stood, shaken.
+“Put him in prison—”
+Miran cried out, voice breaking.
+“Please… let me go to my sister. She’s the only one I have.”
+The leader stopped.
+For a long moment, he said nothing.
+Then, quietly—
+“Free him. Let him go.”
+`
     },
     {
-        title: "Page 18",
-        content: "Under Progress"
+        title: "Episode 17",
+        content: `The soldiers hesitated.
+“But why free him?” one of them asked.
+“He could become a great warrior. And what about the soldier he killed?”
+The leader’s voice was firm, yet heavy with emotion.
+“The man he killed was defending himself,” he said. “And as for greatness—yes, he could become a great soldier. I wanted that too.”
+He paused, his eyes lowering.
+“But he has something stronger than any blade or army. His sister. Their bond.”
+The soldiers fell silent.
+“He doesn’t seek power,” the leader continued. “He seeks peace. And the pain he’s living through now… I once lived it myself.”
+His voice cracked.
+“When my father was burning with fever, I stood helpless—just like he did. The soldiers didn’t let me go. I accepted the kingdom’s offer, became their soldier… and later betrayed them for revenge.”
+Tears filled his eyes.
+“When I was finally freed and returned home… my father was already dead.”
+The leader turned away.
+“I will not let my mistake become another man’s fate. Free him. Now. I don’t want what happened to me to happen to anyone else.”
+The soldiers obeyed.
+Miran was released and guided toward the village.
+Night passed as he moved—walking, running, swimming—driven by only one name in his heart.
+“Fatma!”
+The cry echoed outside the house.
+Fatma froze.
+She ran to the door, hands trembling, tears already falling. Slowly, she pulled the cloth aside—
+And there he was.
+“M—Brother…?”
+Both of them broke.
+Their hands shook as they reached for each other, then they collapsed into a tight embrace. No words—only sobs, only names whispered again and again.
+Miran sank to one knee, exhaustion finally claiming him.
+Fatma didn’t let go—not even for a moment. She held him as if the world might steal him away again.
+After a while, Miran gently touched her shoulders and wiped her tears.
+“I’m here, Fatma,” he said softly. “I came back for you.”
+Her tears kept falling, but now they carried relief.
+“B-Brother… is it really you?” she whispered, touching his face as if to be sure.
+He smiled faintly. “Yes. It’s me.”
+Then, gently, with warmth in his voice,
+“Now help me stand. I’m very tired… and very hungry.”
+She smiled through tears, touched his cheeks once more.
+“Brother…”
+Miran held her hands and helped her stand. Together, slowly, they walked inside.
+“Fatma,” he said as he lay down, “please let me rest a little. Did you cook anything?”
+She hesitated, nervous energy rushing through her.
+“Y-Yes… I did.”
+She hurried to prepare the food, hands shaking—until Miran reached out and held her wrist.
+“Fatma,” he said softly. “Calm yourself. I’m here.”
+She breathed. Smiled. Then cooked.
+They ate together.
+Later, they shared everything—what each had suffered while apart. The night grew deep.
+As they lay down to sleep, Fatma slowly rested her head on Miran’s arm.
+He was still awake.
+He smiled, gently brushing her hair, resting his hand on her head—protective, grateful, present.
+And finally…
+he slept.`
     },
+   // {
+     //   title: "Page 19",
+     //   content: "Under Progress"
+  //  },
     {
-        title: "Page 19",
-        content: "Under Progress"
-    },
-    {
-        title: "Page 20",
-        content: "Under Progress"
+        title: "Thanks You!",
+        content: `Thanks You, I am glad you have completed it again thanks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contact us : "storieswebsite1@gmail.com`
     }
 ];
 
