@@ -494,58 +494,33 @@ safe, calm, and together.`
     },
     {
         title: "Episode 11",
-        content: `Morning light filtered softly through the trees. The forest was quiet—too quiet.
-Miran woke up first.
-For a moment, he didn’t move. He listened.
-Birds. Wind. The distant sound of water.
-Only then did he turn his head.
-Fatma was still asleep, curled slightly toward him, her face calm but pale. Miran pulled the blanket a little higher around her shoulders and stood up quietly so he wouldn’t wake her.
-He stepped outside the sailor’s house.
-The air smelled of damp wood and river water. Miran stretched his arms, feeling the soreness from yesterday. His eyes scanned the surroundings—habit, instinct. Nothing seemed wrong, but something in his chest felt uneasy.
-The sailor came out moments later, rubbing his eyes.
-“You woke up early,” he said.
-Miran nodded. “I couldn’t sleep properly.”
-The sailor looked toward the forest. “These days… silence itself feels dangerous.”
-Miran didn’t reply. He already felt that truth.
-They prepared a simple breakfast together. The food wasn’t much—just enough for today and maybe a little for tomorrow. Miran noticed it immediately but said nothing.
-When Fatma woke up, she walked out slowly, still half-asleep.
-“Brother…” she said softly.
-Miran smiled. “Good morning, genius.”
-She smiled back, but it faded quickly when she noticed the sailor packing some things.
-“Are you going somewhere?” she asked.
-The sailor hesitated. “I might check the riverbank later. Just to be sure.”
-Miran understood what he meant: to see if anyone else had come.
-They ate together. Fatma tried to act cheerful, but Miran could tell—she was thinking. She always did when she went quiet.
-After breakfast, Miran took Fatma aside.
-“We may have to move soon,” he said gently. “So stay close to me, okay?”
-Fatma nodded. “I will. Always.”
-A little later, while Fatma was washing utensils, Miran noticed something on the ground near the trees.
-Footprints.
-Not old.
-Not animal.
-His expression hardened.
-He walked back slowly, not alarming anyone.
-“Sailor,” he said calmly, “how many people pass through this area?”
-The sailor looked at the footprints and swallowed.
-“Almost no one.”
-Fatma noticed the tension and walked closer.
-“Brother… what happened?”
-Miran placed a hand behind her, subtly shielding her.
-“Nothing. Just… be ready.”
-The rest of the day passed in uneasy waiting. The forest felt heavier as the sun lowered. Even the birds grew silent.
-That evening, as they counted supplies, the truth became clear.
-Food was enough for one full day—
-and a little for the next morning.
-Fatma looked at Miran. “Brother… we’ll be okay, right?”
-Miran met her eyes and smiled—the kind of smile that hides fear.
-“Yes. We will.”
-That night, Miran didn’t sleep.
-He sat near the entrance, weapon beside him, eyes open, listening.
-And somewhere in the distance—
-far beyond the trees—
-a faint sound echoed.
-Not an animal.
-Human voices.`
+        content: `Miran woke up to find Fatma already awake, quietly preparing things near the hearth.
+“Brother, wait a little. I’ve almost finished,” she said.
+Miran blinked in surprise. “Fatma, when did you wake up? And why so early?”
+She looked at him seriously.
+“Brother, from now on you’ll be going to work. You’ll need more energy. Working in the morning without rest is harder. Also… I want to help you.”
+Miran smiled warmly. “Thank you, sister.”
+After freshening up, he sat beside her. Fatma spoke again, her voice soft but thoughtful.
+“Brother… today you’re going out again, right? Will you go toward the village? And… what about the child’s money?”
+Miran paused, surprised. “Fatma… you’re growing up, my sister. I’m really glad. But how do you know about the money I got from the child?”
+She answered calmly, almost proudly,
+“Yesterday, the child came and asked for you. Later I thought about it… he was the only one you could have asked for help. Because you told the sailor you didn’t have money, right?”
+“Oh, my sister…” Miran whispered, deeply touched.
+Fatma’s eyes shimmered, and her voice grew a little firm.
+“Brother, what’s this? I was asking you something, and you were just quiet. If you don’t want to answer, just say it—I wouldn’t ask again.”
+Miran gently held her hand.
+“Fatma, I love you. Yes, I took the money from the child yesterday and told him the truth. You were right about everything. Now, sister, let me go to work. But remember… I will always be with you.”
+Fatma smiled, her heart warmed.
+Miran’s work turned out to be harder than he expected. Cutting even a small tree took nearly an hour. By nightfall, he had chopped it into pieces and carried it back home. Thinking of Fatma, he hurried inside and found her sleeping.
+“Fatma…?” he whispered, touching her hand gently.
+“I woke up early… I needed some rest,” she murmured.
+Miran smiled softly and rested his head against her hand.
+“Oh, Fatma… I’m glad you’re alright.”
+Later that night, Fatma stirred slightly.
+“Brother… it’s night.”
+“Yes,” Miran replied quietly, “but I need to finish bringing everything inside.”
+He stepped out again, worked patiently until all the wood was stored safely, and finally returned inside.
+The next day began…`
     },
     {
         title: "Episode 12",
