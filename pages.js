@@ -1256,7 +1256,7 @@ Miran shook his head. “N-no… I don’t know.”
 
 The leader took a deep breath and said,
 
-“Listen carefully. The war between the kingdoms has reached its final stage. They’re destroying entire territories. I’ve made a plan—to kill both kings. If they die, the war will end.”
+“Listen carefully. The war between the kingdoms has reached its final stage. They’re destroying entire territories. I’ve made a plan—to kill one of the king. If one king die, the war will end. And the other will win.”
 
 Miran stepped back instinctively, closer to Fatma.
 
