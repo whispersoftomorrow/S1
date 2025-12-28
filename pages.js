@@ -1,63 +1,185 @@
+// Add special CSS for cover pages
+const addCoverStyles = () => {
+    const style = document.createElement('style');
+    style.textContent = `
+        /* Cover Page Special Styling */
+        .page.cover-page .page-title {
+            font-size: 3.5rem;
+            text-align: center;
+            margin-top: 60px;
+            border-bottom: none;
+            color: #3498db;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+            letter-spacing: 2px;
+            position: relative;
+            animation: titleGlow 2s ease-in-out infinite alternate;
+        }
+        
+        .theme-dark .page.cover-page .page-title {
+            color: #FFD700;
+        }
+        
+        @keyframes titleGlow {
+            from {
+                text-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+            }
+            to {
+                text-shadow: 0 0 20px rgba(52, 152, 219, 0.6), 3px 3px 6px rgba(0,0,0,0.2);
+            }
+        }
+        
+        .theme-dark .page.cover-page .page-title {
+            animation: titleGlowDark 2s ease-in-out infinite alternate;
+        }
+        
+        @keyframes titleGlowDark {
+            from {
+                text-shadow: 3px 3px 6px rgba(0,0,0,0.4);
+            }
+            to {
+                text-shadow: 0 0 20px rgba(255, 215, 0, 0.6), 3px 3px 6px rgba(0,0,0,0.4);
+            }
+        }
+        
+        .page.cover-page .page-content {
+            text-align: center;
+            font-size: 1.4rem;
+            line-height: 2;
+            margin-top: 50px;
+            min-height: 400px;
+            position: relative;
+            padding: 40px;
+        }
+        
+        .page.cover-page .page-content::before {
+            content: "✦";
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 2rem;
+            color: #f1c40f;
+            opacity: 0.5;
+        }
+        
+        .page.cover-page .page-content::after {
+            content: "✦";
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 2rem;
+            color: #f1c40f;
+            opacity: 0.5;
+        }
+        
+        /* Outro Page Styling */
+        .page.outro-page .page-title {
+            font-size: 2.8rem;
+            text-align: center;
+            margin-top: 80px;
+            border-bottom: none;
+            color: #2c3e50;
+            position: relative;
+        }
+        
+        .theme-dark .page.outro-page .page-title {
+            color: #ecf0f1;
+        }
+        
+        .page.outro-page .page-content {
+            text-align: center;
+            font-size: 1.3rem;
+            line-height: 1.8;
+            margin-top: 60px;
+            min-height: 400px;
+            padding: 40px;
+            background: linear-gradient(135deg, rgba(52, 152, 219, 0.1) 0%, rgba(241, 196, 15, 0.1) 100%);
+            border-radius: 15px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .page.outro-page .page-content::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #3498db, #f1c40f);
+        }
+        
+        .page.outro-page .page-content::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #f1c40f, #3498db);
+        }
+        
+        .page.outro-page .page-content .contact-info {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 30px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            display: inline-block;
+        }
+        
+        .theme-dark .page.outro-page .page-content .contact-info {
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        /* Add decorative border to cover pages */
+        .page.cover-page::before {
+            content: "";
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            right: 20px;
+            bottom: 20px;
+            border: 2px dashed rgba(52, 152, 219, 0.3);
+            border-radius: 10px;
+            pointer-events: none;
+        }
+        
+        .page.outro-page::before {
+            content: "";
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            right: 20px;
+            bottom: 20px;
+            border: 2px solid rgba(241, 196, 15, 0.2);
+            border-radius: 10px;
+            pointer-events: none;
+        }
+    `;
+    document.head.appendChild(style);
+};
+
+// Call this function to add styles
+addCoverStyles();
+
 // All page content - replace empty strings with your content
 const pages = [
     {
         title: "Whispers Of Tomorrow",
-        content: `Hey brother,
-
-Whispers Of Tomorrow
-
-- Zeeshan Khan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Page 1
+        content: `╔══════════╗
+LIGHT NOVEL
+╠══════════╣
+WHISPERS OF TOMORROW
+SEASON ONE
+╠══════════╣
+Total Episodes: 22
+╠══════════╣
+           Created By:
+         ZEESHAN KHAN
+╚══════════╝
 `
     },
     {
@@ -65,9 +187,9 @@ Page 1
         content: `One night, an entire village was burned to ashes by the Cease Kingdom.
 
 Two children — Miran and Fatma — were not there that night.
-They had gone to their uncle’s house.
+They had gone to their uncle's house.
 
-When they returned…
+When they returned...
 there was nothing left.
 
 Houses reduced to smoke.
@@ -86,14 +208,14 @@ Their uncle and his family tried to protect them —
 helping Miran and Fatma escape into the jungle
 with only a few tools and fading hope.
 
-The uncle’s family was captured.
+The uncle's family was captured.
 Enslaved.
 
 Two children.
 A burning past.
 A world at war.
 
-And in the depths of the jungle…
+And in the depths of the jungle...
 their real story begins.
 
 __________________________________________
@@ -101,106 +223,11 @@ __________________________________________
     },
     {
         title: "Episode 1",
-        content: `They walked deep into the forest until they found an old, silent tent.
-
-No one was there.
-
-What they didn’t know was that the owner of this tent had once been part of the massacre.
-
-They waited, hoping someone would return.
-But as the hours passed, winter crept in.
-The cold grew sharper.
-
-Left with no choice, they entered the house.
-
-They ate the food their uncle had given them and tried to rest.
-But soon, Fatma’s body began to burn with fever.
-
-Miran stayed awake all night.
-
-He tried to calm her, talked to her softly, made her laugh when she could.
-Inside, he was breaking.
-Outside, he smiled — pretending to be strong.
-
-That night, one laughed to hide fear,
-and one watched the darkness to protect.
-
-Eventually, exhaustion won.
-They fell asleep.
-
-
----
-
-Morning — Episode Continues
-
-Miran woke up early.
-
-He cleaned the house, explored the nearby area,
-and built a small cooking place using soil and stones — simple, but safe.
-
-When everything was ready,
-Fatma woke up.
-
-She slowly walked to him, held his hand, and said softly:
-
-“Brother… I’m hungry.”
-
-__________________________________________`
+        content: ``
     },
     {
         title: "Episode 2",
-        content: `Miran nodded softly.
-“Okay, Fatma.”
-
-He went outside to look for food. After some time, Fatma suddenly called out,
-“Brother, come here fast!”
-
-When Miran rushed back, he saw that Fatma had reheated the food from the previous night. It was simple, but warm. They sat together and ate quietly.
-
-Soon after, Fatma’s fever started rising again. Feeling weak, she lay down to rest.
-
-Miran understood that food was becoming a serious problem. Before leaving, he gently said,
-“Fatma, I’m going out to arrange food. I’ll come back soon.”
-
-As he held her hand, he felt it — her hand was ice-cold.
-
-“Please don’t go, brother,” Fatma said softly, almost whispering.
-
-“I’ll be just outside. You can call me anytime, okay?” Miran replied, trying to sound calm.
-
-“Okay, brother,” she answered.
-
-Outside, Miran stood thinking desperately. Then he remembered the house. He searched every corner carefully — and finally found two apples and a watermelon. His eyes lit up with relief.
-
-He immediately grabbed an apple and went back.
-“Wake up, sister! Look, I found an apple for you. Want to eat?”
-
-Fatma slowly replied, “No…”
-
-Her fever was getting worse.
-
-Miran brought firewood inside and used the matches his uncle had given him. He built a small fire and prepared a warm resting place nearby. Then he went back to Fatma.
-
-“Come on, sister. I’ve made a warm place for you. Wake up.”
-
-“I don’t have enough energy…” Fatma cried weakly.
-
-Before she could finish, Miran gently but firmly lifted her.
-“Hey, come with me.”
-
-He placed her carefully near the fire.
-
-“Oh… thank you very much, brother,” Fatma whispered.
-
-Later, Miran cut all the fruits and returned.
-“It’s 7:20, sister. Please wake up.”
-
-Fatma tried to speak but stopped.
-
-“For my sake?” Miran said softly.
-
-She held his hand and slowly sat beside him. Miran felt warmth returning to her fingers — slowly, but surely. They ate together, shared the silence, and soon drifted into sleep beside the fire.
-`
+        content: ``
     },
     {
         title: "Episode 3",
@@ -235,108 +262,98 @@ She held his hand and slowly sat beside him. Miran felt warmth returning to her 
         content: ``
     },
     {
-        title: "",
+        title: "Episode 11",
         content: ``
     },
     {
-        title: "",
+        title: "Episode 12",
         content: ``
     },
     {
-        title: "",
+        title: "Episode 13",
         content: ``
     },
     {
-        title: "",
+        title: "Episode 14",
         content: ``
     },
     {
-        title: "",
+        title: "Episode 15",
         content: ``
     },
     {
-        title: "",
+        title: "Episode 16",
         content: ``
     },
     {
-        title: "",
+        title: "Episode 17",
         content: ``
     },
     {
-        title: "",
+        title: "Episode 18",
         content: ``
     },
     {
-        title: "",
+        title: "Episode 19",
         content: ``
     },
     {
-        title: "",
+        title: "Episode 20",
         content: ``
     },
     {
-        title: "",
+        title: "Episode 21",
         content: ``
     },
     {
-        title: "",
+        title: "Episode 22",
         content: ``
     },
     {
         title: "The End",
-        content: `Contact Us:
-storieswebsite1@gmail.com and zeeshan40u@gmail.com.
+        content: `╔══════════╗
+           THANK YOU FOR READING
+╠══════════╣
+WHISPERS OF TOMORROW
+SEASON ONE
+╠══════════╣
 
+Contact the Author:
 
+storieswebsite1@gmail.com 
+zeeshan40u@gmail.com
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Page 25
+╠══════════╣
+Stay tuned for Season Two!
+╚══════════╝
 `
     }
 ];
+
+// Add special classes to cover and outro pages when rendering
+document.addEventListener('DOMContentLoaded', () => {
+    const renderPages = () => {
+        const container = document.getElementById('pages-container');
+        if (container) {
+            // Add special class to first page (cover)
+            const firstPage = container.querySelector('#page-1');
+            if (firstPage) {
+                firstPage.classList.add('cover-page');
+            }
+            
+            // Add special class to last page (outro)
+            const lastPage = container.querySelector('#page-25');
+            if (lastPage) {
+                lastPage.classList.add('outro-page');
+            }
+        }
+    };
+    
+    // Run after a short delay to ensure pages are rendered
+    setTimeout(renderPages, 100);
+});
+
+// Export for use in other files
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { pages };
+}
