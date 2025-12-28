@@ -139,8 +139,31 @@ body.theme-dark {
     }
 }
 
-.page-title {
-    font-size: 2.5rem;
+/* Cover Page Special Styling */
+.page:first-child .page-title {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 80px;
+    border-bottom: none;
+    color: var(--blue);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.page:first-child .page-content {
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 2;
+    margin-top: 40px;
+    min-height: 400px;
+}
+
+.theme-dark .page:first-child .page-title {
+    color: var(--yellow);
+}
+
+/* Regular Page Titles */
+.page:not(:first-child) .page-title {
+    font-size: 2.2rem;
     color: var(--blue);
     margin-bottom: 25px;
     padding-bottom: 15px;
@@ -150,7 +173,7 @@ body.theme-dark {
     overflow: hidden;
 }
 
-.page-title::after {
+.page:not(:first-child) .page-title::after {
     content: '';
     position: absolute;
     bottom: -3px;
@@ -168,15 +191,22 @@ body.theme-dark {
     }
 }
 
+/* Page Content - FIXED ALIGNMENT */
 .page-content {
     font-size: 1.15rem;
-    padding: 25px 0;
+    padding: 25px 20px;
     min-height: 400px;
     white-space: pre-wrap; /* This preserves newlines and spaces */
     word-wrap: break-word;
     overflow-wrap: break-word;
     line-height: 1.8;
-    text-align: left;
+    text-align: left !important; /* Force left alignment */
+    font-family: 'Georgia', serif;
+}
+
+/* Ensure text starts from left, not center */
+.page-content * {
+    text-align: left !important;
 }
 
 .page.active .page-content {
@@ -606,13 +636,24 @@ body.theme-dark {
         min-height: 80vh;
     }
 
-    .page-title {
+    .page:first-child .page-title {
+        font-size: 2.2rem;
+        margin-top: 40px;
+    }
+
+    .page:first-child .page-content {
+        font-size: 1.1rem;
+        margin-top: 20px;
+    }
+
+    .page:not(:first-child) .page-title {
         font-size: 1.8rem;
     }
 
     .page-content {
         font-size: 1rem;
         min-height: 300px;
+        padding: 20px 15px;
     }
 
     .nav-btn {
