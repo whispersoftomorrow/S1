@@ -5,6 +5,50 @@
     box-sizing: border-box;
 }
 
+:root {
+    /* Light Theme */
+    --light-bg: #f5f1e8;
+    --light-paper: #fffef9;
+    --light-text: #2c3e50;
+    --light-border: #d4c9b8;
+    --light-accent: #3498db;
+    --light-accent2: #f1c40f;
+
+    /* Dark Theme */
+    --dark-bg: #1a1a2e;
+    --dark-paper: #2d3047;
+    --dark-text: #ecf0f1;
+    --dark-border: #404258;
+    --dark-accent: #3498db;
+    --dark-accent2: #f1c40f;
+
+    /* Common */
+    --yellow: #FFD700;
+    --blue: #3498db;
+    --shadow: rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    padding: 20px;
+    transition: var(--transition);
+    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="100" opacity="0.03" xmlns="http://www.w3.org/2000/svg"><path d="M0,0 L100,0 L100,100 L0,100 Z" stroke="%23000" fill="none"/></svg>');
+}
+
+/* Theme Styles */
+body.theme-light {
+    background-color: var(--light-bg);
+    color: var(--light-text);
+}
+
+body.theme-dark {
+    background-color: var(--dark-bg);
+    color: var(--dark-text);
+}
+
 /* Logo Styles */
 .logo-container {
     display: flex;
@@ -36,152 +80,6 @@
     color: var(--dark-text);
 }
 
-/* Book logo inside container */
-.book-logo {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    opacity: 0.2;
-    z-index: 1;
-}
-
-.book-logo img {
-    border-radius: 5px;
-}
-
-/* Footer */
-.site-footer {
-    text-align: center;
-    margin-top: 30px;
-    padding: 20px;
-    color: var(--light-text);
-    font-size: 0.9rem;
-    opacity: 0.7;
-}
-
-.theme-dark .site-footer {
-    color: var(--dark-text);
-}
-
-.footer-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-}
-
-.footer-content img {
-    border-radius: 5px;
-}
-
-.footer-tagline {
-    font-style: italic;
-    color: var(--blue);
-}
-
-.theme-dark .footer-tagline {
-    color: var(--yellow);
-}
-
-/* Theme selector with logo */
-.theme-selector {
-    position: fixed;
-    top: 30px;
-    right: 30px;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    z-index: 100;
-    background: rgba(255, 255, 255, 0.9);
-    padding: 10px 20px;
-    border-radius: 50px;
-    box-shadow: 0 3px 15px rgba(0,0,0,0.1);
-    transition: var(--transition);
-}
-
-.theme-dark .theme-selector {
-    background: rgba(45, 48, 71, 0.9);
-}
-
-.theme-selector:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
-}
-
-/* Responsive adjustments for logo */
-@media (max-width: 768px) {
-    .theme-selector {
-        flex-direction: column;
-        padding: 15px;
-        border-radius: 20px;
-        top: 15px;
-        right: 15px;
-    }
-    
-    .logo-container {
-        flex-direction: column;
-        text-align: center;
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-    
-    .book-logo {
-        position: static;
-        text-align: center;
-        margin-bottom: 20px;
-        opacity: 0.4;
-    }
-    
-    .footer-content {
-        flex-direction: column;
-        gap: 10px;
-    }
-}
-
-:root {
-    /* Light Theme */
-    --light-bg: #f5f1e8;
-    --light-paper: #fffef9;
-    --light-text: #2c3e50;
-    --light-border: #d4c9b8;
-    --light-accent: #3498db;
-    --light-accent2: #f1c40f;
-    
-    /* Dark Theme */
-    --dark-bg: #1a1a2e;
-    --dark-paper: #2d3047;
-    --dark-text: #ecf0f1;
-    --dark-border: #404258;
-    --dark-accent: #3498db;
-    --dark-accent2: #f1c40f;
-    
-    /* Common */
-    --yellow: #FFD700;
-    --blue: #3498db;
-    --shadow: rgba(0, 0, 0, 0.1);
-    --transition: all 0.3s ease;
-}
-
-body {
-    font-family: 'Georgia', 'Times New Roman', serif;
-    line-height: 1.6;
-    min-height: 100vh;
-    padding: 20px;
-    transition: var(--transition);
-    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="100" opacity="0.03" xmlns="http://www.w3.org/2000/svg"><path d="M0,0 L100,0 L100,100 L0,100 Z" stroke="%23000" fill="none"/></svg>');
-}
-
-/* Theme Styles */
-body.theme-light {
-    background-color: var(--light-bg);
-    color: var(--light-text);
-}
-
-body.theme-dark {
-    background-color: var(--dark-bg);
-    color: var(--dark-text);
-}
-
 /* Book Container */
 .book-container {
     max-width: 900px;
@@ -205,7 +103,20 @@ body.theme-dark {
                 0 0 20px rgba(52, 152, 219, 0.2);
 }
 
-/* Page Animations - FIXED */
+/* Book logo inside container */
+.book-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.book-logo img {
+    border-radius: 5px;
+}
+
+/* Page Styles */
 .page {
     display: none;
     opacity: 0;
@@ -226,72 +137,6 @@ body.theme-dark {
         opacity: 1;
         transform: translateY(0);
     }
-}
-
-@keyframes pageExit {
-    from {
-        opacity: 1;
-        transform: translateY(0);
-    }
-    to {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-}
-
-/* Page turn animation for next page */
-@keyframes pageTurnNextIn {
-    0% {
-        opacity: 0;
-        transform: translateX(100px) rotateY(-10deg);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0) rotateY(0);
-    }
-}
-
-@keyframes pageTurnNextOut {
-    0% {
-        opacity: 1;
-        transform: translateX(0) rotateY(0);
-    }
-    100% {
-        opacity: 0;
-        transform: translateX(-100px) rotateY(10deg);
-    }
-}
-
-/* Page turn animation for previous page */
-@keyframes pageTurnPrevIn {
-    0% {
-        opacity: 0;
-        transform: translateX(-100px) rotateY(10deg);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0) rotateY(0);
-    }
-}
-
-@keyframes pageTurnPrevOut {
-    0% {
-        opacity: 1;
-        transform: translateX(0) rotateY(0);
-    }
-    100% {
-        opacity: 0;
-        transform: translateX(100px) rotateY(-10deg);
-    }
-}
-
-/* Active page animations */
-.page.active.next {
-    animation: pageTurnNextIn 0.6s ease forwards;
-}
-
-.page.active.prev {
-    animation: pageTurnPrevIn 0.6s ease forwards;
 }
 
 .page-title {
@@ -327,6 +172,11 @@ body.theme-dark {
     font-size: 1.15rem;
     padding: 25px 0;
     min-height: 400px;
+    white-space: pre-wrap; /* This preserves newlines and spaces */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.8;
+    text-align: left;
 }
 
 .page.active .page-content {
@@ -659,8 +509,23 @@ body.theme-dark {
     top: 30px;
     right: 30px;
     display: flex;
-    gap: 10px;
+    align-items: center;
+    gap: 15px;
     z-index: 100;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+    transition: var(--transition);
+}
+
+.theme-dark .theme-selector {
+    background: rgba(45, 48, 71, 0.9);
+}
+
+.theme-selector:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
 }
 
 .theme-btn {
@@ -696,71 +561,126 @@ body.theme-dark {
     box-shadow: 0 0 20px rgba(52, 152, 219, 0.5);
 }
 
+/* Footer */
+.site-footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    color: var(--light-text);
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+.theme-dark .site-footer {
+    color: var(--dark-text);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-content img {
+    border-radius: 5px;
+}
+
+.footer-tagline {
+    font-style: italic;
+    color: var(--blue);
+}
+
+.theme-dark .footer-tagline {
+    color: var(--yellow);
+}
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
     body {
         padding: 10px;
     }
-    
+
     .book-container {
         padding: 25px;
         min-height: 80vh;
     }
-    
+
     .page-title {
         font-size: 1.8rem;
     }
-    
+
     .page-content {
         font-size: 1rem;
         min-height: 300px;
     }
-    
+
     .nav-btn {
         padding: 10px 20px;
         font-size: 0.9rem;
     }
-    
+
     .page-indicator {
         font-size: 1rem;
         padding: 8px 20px;
     }
-    
+
     .page-controls {
         bottom: 20px;
         right: 20px;
         padding: 10px;
     }
-    
+
     .control-btn {
         width: 40px;
         height: 40px;
         font-size: 1rem;
     }
-    
+
     .theme-selector {
         top: 15px;
         right: 15px;
         flex-direction: column;
+        padding: 15px;
+        border-radius: 20px;
     }
-    
+
+    .logo-container {
+        flex-direction: column;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .book-logo {
+        position: static;
+        text-align: center;
+        margin-bottom: 20px;
+        opacity: 0.4;
+    }
+
     .quick-nav {
         flex-direction: column;
     }
-    
+
     #pageSlider {
         max-width: 100%;
     }
-    
+
     .corner {
         width: 15px;
         height: 15px;
         border-width: 2px;
     }
-    
+
     .bookmark {
         width: 25px;
         height: 50px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 10px;
     }
 }
 
@@ -768,17 +688,17 @@ body.theme-dark {
     .book-container {
         padding: 20px;
     }
-    
+
     .page-navigation {
         flex-direction: column;
         gap: 15px;
     }
-    
+
     .nav-btn {
         width: 100%;
         justify-content: center;
     }
-    
+
     .page-controls {
         position: static;
         margin-top: 20px;
@@ -786,7 +706,7 @@ body.theme-dark {
         width: 100%;
         border-radius: 10px;
     }
-    
+
     .theme-selector {
         position: static;
         margin-bottom: 20px;
@@ -803,26 +723,6 @@ body.theme-dark {
     flex-direction: column;
     text-align: center;
     color: #7f8c8d;
-}
-
-.empty-icon {
-    font-size: 4rem;
-    color: #ecf0f1;
-    margin-bottom: 20px;
-    animation: float 3s ease-in-out infinite;
-}
-
-@keyframes float {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-20px);
-    }
-}
-
-.empty-message {
-    max-width: 400px;
 }
 
 /* Loading Animation */
@@ -855,4 +755,15 @@ body.theme-dark {
 
 .animate-out {
     animation: pageExit 0.6s ease forwards;
+}
+
+@keyframes pageExit {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
 }
