@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Book - Your Digital Diary</title>
-    
+
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
@@ -13,18 +13,18 @@
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="manifest" href="site.webmanifest">
     <meta name="theme-color" content="#3498db">
-    
+
     <!-- Stylesheets -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
     <!-- Meta tags for better sharing -->
     <meta name="description" content="A peaceful digital book for your thoughts and stories. Simple, calm, and beautiful.">
     <meta property="og:title" content="Simple Book - Your Digital Diary">
     <meta property="og:description" content="Write your thoughts in this peaceful digital book">
     <meta property="og:image" content="one.jpg">
     <meta property="og:type" content="website">
-    
+
     <!-- Preload logo for faster loading -->
     <link rel="preload" href="one.jpg" as="image">
 </head>
@@ -36,7 +36,7 @@
             <img src="one.jpg" alt="Simple Book Logo" class="site-logo" width="40" height="40">
             <span class="logo-text">Simple Book</span>
         </div>
-        
+
         <button class="theme-btn theme-light-btn" data-theme="light">
             <i class="fas fa-sun"></i> Light
         </button>
@@ -52,33 +52,33 @@
         <div class="corner corner-tr"></div>
         <div class="corner corner-bl"></div>
         <div class="corner corner-br"></div>
-        
+
         <!-- Bookmark -->
         <div class="bookmark"></div>
-        
+
         <!-- Logo inside book for branding -->
         <div class="book-logo">
             <img src="one.jpg" alt="Book Logo" width="60" height="60">
         </div>
-        
+
         <!-- Pages will be inserted here by JavaScript -->
         <div id="pages-container"></div>
-        
+
         <!-- Navigation -->
         <div class="page-navigation">
             <button class="nav-btn prev-btn">
                 <i class="fas fa-chevron-left"></i> Previous
             </button>
-            
+
             <div class="page-indicator">
                 <span id="currentPage">1</span> / <span id="totalPages">20</span>
             </div>
-            
+
             <button class="nav-btn next-btn">
                 Next <i class="fas fa-chevron-right"></i>
             </button>
         </div>
-        
+
         <!-- Quick Navigation -->
         <div class="quick-nav">
             <input type="range" id="pageSlider" min="1" max="20" value="1">
